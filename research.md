@@ -30,39 +30,4 @@ My research asks how social and economic structures become embodied as disease, 
 
 ## Publications
 
-A full list is on [Google Scholar]({{ site.google_scholar | default: '#' }}) and [ORCID]({{ site.orcid | default: '#' }}).
-
-<p style="font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--slate); margin: 2.5rem 0 0.5rem; letter-spacing: 0.02em;">Working papers</p>
-<ul class="pub-list">
-  <li>
-    <p class="pub-title">Adolescent parenting styles and adult cardiovascular outcomes: a target trial emulation</p>
-    <p class="pub-authors">Noor N, Collaborator C, Collaborator N.</p>
-    <p class="pub-venue">Under review, 2026.</p>
-    <p class="pub-links"><a href="#">Preprint</a><a href="#">Code</a></p>
-  </li>
-</ul>
-
-<p style="font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--slate); margin: 2.5rem 0 0.5rem; letter-spacing: 0.02em;">Peer-reviewed articles</p>
-<ul class="pub-list">
-  <li>
-    <p class="pub-title">Example article title that captures the main finding in a sentence</p>
-    <p class="pub-authors">Noor N, Author B, Author C.</p>
-    <p class="pub-venue"><em>Journal name</em>, year.</p>
-    <p class="pub-links"><a href="#">DOI</a><a href="#">PDF</a></p>
-  </li>
-</ul>
-
-<p style="font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--slate); margin: 2.5rem 0 0.5rem; letter-spacing: 0.02em;">Policy reports and chapters</p>
-<ul class="pub-list">
-  <li>
-    <p class="pub-title">Health and care policy in Malaysia: from commodified to collective care</p>
-    <p class="pub-authors">Noor N.</p>
-    <p class="pub-venue">Chapter in edited volume, forthcoming.</p>
-  </li>
-  <li>
-    <p class="pub-title">A policy report title from Khazanah Research Institute</p>
-    <p class="pub-authors">Noor N, Author B.</p>
-    <p class="pub-venue">Khazanah Research Institute, year.</p>
-    <p class="pub-links"><a href="#">PDF</a></p>
-  </li>
-</ul>
+A full list is on [Google Scholar]({{ site.google_scholar }}) and [ORCID]({{ site.orcid }}).

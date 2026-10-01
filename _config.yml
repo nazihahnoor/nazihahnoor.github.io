@@ -7,19 +7,14 @@ description: >
 author: Nazihah Noor
 email: nazihah.noor@proton.me
 
-# Replace with your custom domain once DNS is configured.
-# If you don't have a custom domain yet, leave as "" and your site will
-# live at https://<your-github-username>.github.io/<repo-name>/
 url: "https://nazihahnoor.github.io"
 baseurl: ""
 
-# Social / professional links. Leave blank to hide. Fill in once ready.
 linkedin: "https://linkedin.com/in/nazihahnoor"
 google_scholar: "https://scholar.google.com/citations?user=KUv8NX4AAAAJ&hl=en"
 orcid: "https://orcid.org/0000-0001-6543-1352"
 github_username: nazihahnoor
 
-# Build settings
 markdown: kramdown
 permalink: /reflections/:year/:month/:slug/
 timezone: Europe/Zurich
@@ -37,14 +32,12 @@ defaults:
       layout: "reflection"
 
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
   - vendor
   - .sass-cache
   - .jekyll-cache
   - node_modules
-  - preview-home.html
 
 plugins:
   - jekyll-feed

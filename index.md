@@ -6,12 +6,7 @@ title: Home
 <section class="home">
   <div class="home-hero">
     <div>
-      <!-- Replace the placeholder below with your portrait.
-           Save your image as assets/images/portrait.jpg and swap in the <img> tag commented out below. -->
-
-      <!-- <img class="home-portrait" src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Nazihah Noor"> -->
-
-      <div class="home-portrait-placeholder">Add your portrait at assets/images/portrait.jpg</div>
+      <img class="home-portrait" src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Nazihah Noor">
     </div>
 
     <div class="home-bio">
