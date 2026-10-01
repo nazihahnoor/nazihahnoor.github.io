@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <nav class="footer-links" aria-label="Secondary">
+      <a href="mailto:{{ site.email }}">Email</a>
+      {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar</a>{% endif %}
+      {% if site.orcid %}<a href="{{ site.orcid }}">ORCID</a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+    </nav>
+    <p class="footer-colophon">
+      <span class="footer-tagline">Unbuilding Walls</span>
+      <span class="footer-sep">·</span>
+      &copy; {{ 'now' | date: "%Y" }} {{ site.author }}
+    </p>
+  </div>
+</footer>
