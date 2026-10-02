@@ -159,14 +159,14 @@ img { max-width: 100%; height: auto; display: block; }
    ========================================================= */
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) 1.6fr;
+  grid-template-columns: minmax(240px, 340px) 1fr;
   gap: clamp(2rem, 5vw, 4rem);
-  align-items: start;
+  align-items: center;
   margin: 4rem 0 5rem;
 }
 .home-portrait {
   width: 100%;
-  max-width: 420px;
+  max-width: 340px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   background: var(--cream-deep);
@@ -174,7 +174,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .home-portrait-placeholder {
   width: 100%;
-  max-width: 420px;
+  max-width: 340px;
   aspect-ratio: 1 / 1;
   background: var(--cream-deep);
   border: 1px solid var(--rule);
@@ -222,6 +222,38 @@ img { max-width: 100%; height: auto; display: block; }
   max-width: 320px;
 }
 .about-lockup img { width: 100%; height: auto; display: block; }
+
+/* About page layout — images stacked left, text right */
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(200px, 1fr) 2.2fr;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  margin-top: 1rem;
+  max-width: 60rem;
+}
+.about-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about-figure { margin: 0; }
+.about-figure img { width: 100%; height: auto; display: block; }
+.about-figure figcaption {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--slate);
+  margin: 0.6rem 0 0;
+  line-height: 1.4;
+}
+.about-text p {
+  font-size: 1.0625rem;
+  margin: 0 0 1.1em;
+  line-height: 1.65;
+}
+.about-text a { color: var(--green); }
+@media (max-width: 720px) {
+  .about-layout { grid-template-columns: 1fr; }
+}
 
 /* =========================================================
    Page header

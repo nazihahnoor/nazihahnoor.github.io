@@ -1,33 +1,23 @@
 ---
 layout: page
 title: Research
-subtitle: Public health, research-to-policy translation
 permalink: /research/
 ---
 
-My research asks how social and economic structures become embodied as disease and how the methodological choices we make determine what kinds of inequalities we can see.
+A selection of my academic and professional work, including published papers, ongoing projects and collaborations. This page is updated periodically. For a full list, see my [Google Scholar]({{ site.google_scholar }}) and [ORCID]({{ site.orcid }}) profiles.
 
-## Current themes
+## Peer-Reviewed Articles in Scientific Journals
 
-<ul class="theme-list">
-  <li>
-    <h3>Early-life exposures and adult cardiovascular health</h3>
-    <p>My dissertation examines adolescent exposures</p>
-  </li>
-  <li>
-    <h3>Measuring socioeconomic inequalities in health</h3>
-    <p>...</p>
-  </li>
-  <li>
-    <h3>Health and care policy in Malaysia</h3>
-    <p>...</p>
-  </li>
-  <li>
-    <h3>Social and economic policy</h3>
-    <p>...</p>
-  </li>
-</ul>
+1. Jackisch, J., **Noor, N.**, Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2025. ["Differential effects of adolescent health behaviours on adult cardiometabolic health by parental and neighbourhood socioeconomic background"](#). *European Journal of Public Health*.
 
-## Publications
+2. Jackisch, J., **Noor, N.**, Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2024. ["Does the effect of adolescent health behaviours on adult cardiometabolic health differ by socioeconomic background? Protocol for a population-based cohort study"](#). *BMJ Open*.
 
-A full list is on [Google Scholar]({{ site.google_scholar }}) and [ORCID]({{ site.orcid }}).
+3. Probst-Hensch, N., Imboden, M., Jeong, A., Keidel, D., Vermes, T., Witzig, M., Cullati, S., Tancredi, S., **Noor, N.**, Rodondi, PY., Harju, E., … Corona Immunitas Research Group. 2024. ["Long-term trajectories of densely reported depressive symptoms during an extended period of the COVID-19 pandemic in Switzerland: Social worries matter"](#). *Comprehensive Psychiatry*.
+
+## Policy Reports and Other Publications
+
+Add further entries here following the same format. The pattern for each is:
+
+```
+Author, A., **Noor, N.**, Author, C. YEAR. ["Title of the piece"](URL). *Outlet or journal name*.
+```
