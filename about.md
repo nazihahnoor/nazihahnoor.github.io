@@ -2,16 +2,17 @@
 layout: page
 title: About Me
 permalink: /about/
+wide: true
 ---
 
 <div class="about-layout">
   <div class="about-images">
     <figure class="about-figure">
-      <img src="{{ '/assets/images/kuala lumpur.jpg' | relative_url }}" alt="View of the Kuala Lumpur skyline on a cloudy day">
+      <img loading="lazy" src="/assets/images/kuala-lumpur.jpg" alt="View of the Kuala Lumpur skyline on a cloudy day">
       <figcaption>My hometown of Kuala Lumpur</figcaption>
     </figure>
     <figure class="about-figure">
-      <img src="{{ '/assets/images/lisbon.jpg' | relative_url }}" alt="Nazihah standing next to her research poster at a conference">
+      <img loading="lazy" src="/assets/images/lisbon.jpg" alt="Nazihah standing next to her research poster at a conference">
       <figcaption>Me and my poster at the European Public Health Conference 2024 in Lisbon, Portugal</figcaption>
     </figure>
   </div>
@@ -26,11 +27,11 @@ After getting my MPH, I continued working as a public policy researcher at KRI, 
 
 When Covid-19 hit, I was seconded to the Office of the Prime Minister's Special Advisor on Public Health as a research officer. In this position, I got to work on long-term health system reform at a different level, in addition to working on immediate pandemic response for Malaysia. I was simultaneously spearheading the work on public health policy research at KRI, as it was becoming increasingly evident that public health was a growing, pressing issue for Malaysia.
 
-After seven years at KRI, I then joined the [ASEAN Research Center](https://asb.edu.my/research-office/asean-research-center/), part of the Asian School of Business (ASB) as a Senior Research Associate. It was my first taste of being a part of academia, and I was quickly inspired to explore it further. Not long after, I found myself back in Switzerland, this time at the [#PopHealthLab](https://projects.unifr.ch/pophealthlab/), University of Fribourg, where I'm recently completed my PhD, in a project funded by the [Swiss National Science Foundation](https://data.snf.ch/grants/grant/208205). Between November 2025 to April 2026, I was a visiting researcher at the [Life Course Centre](https://lifecoursecentre.org.au/), based at the University of Queensland in Brisbane, Australia.
+After seven years at KRI, I then joined the [ASEAN Research Center](https://asb.edu.my/research-office/asean-research-center/), part of the Asian School of Business (ASB) as a Senior Research Associate. It was my first taste of being a part of academia, and I was quickly inspired to explore it further. Not long after, I found myself back in Switzerland, this time at the [#PopHealthLab](https://projects.unifr.ch/pophealthlab/), University of Fribourg, where I recently completed my PhD, in a project funded by the [Swiss National Science Foundation](https://data.snf.ch/grants/grant/208205). Between November 2025 to April 2026, I was a visiting researcher at the [Life Course Centre](https://lifecoursecentre.org.au/), based at the University of Queensland in Brisbane, Australia.
 
 Throughout these experiences, I have been fortunate to work on meaningful projects and to cross paths with inspiring people. What continues to drive my research and give it purpose is the conviction that knowledge should contribute to building a more just and equitable society.
 
-If you're interested in a full CV, please drop me an email at [{{ site.email }}](mailto:{{ site.email }}) or via the [Contact]({{ '/contact/' | relative_url }}) page.
+If you're interested in a full CV, please drop me an email at [{{ site.email }}](mailto:{{ site.email }}) or via the [Contact](/contact/) page.
 
   </div>
 </div>

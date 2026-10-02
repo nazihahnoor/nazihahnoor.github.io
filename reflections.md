@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Reflections
-subtitle: Occasional notes on research, methods, books, and the places I think from.
 permalink: /reflections/
 ---
 

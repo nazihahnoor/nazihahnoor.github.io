@@ -15,7 +15,7 @@
   --serif: "Lora", Georgia, "Times New Roman", serif;
   --sans: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
-  --measure: 38rem;
+  --measure: 46rem;
   --gutter: clamp(1.5rem, 5vw, 3rem);
   --page-max: 70rem;
 }
@@ -91,16 +91,25 @@ img { max-width: 100%; height: auto; display: block; }
   gap: 2rem;
   flex-wrap: wrap;
 }
-.site-logo {
+.site-brand {
   display: flex;
-  align-items: center;
-  line-height: 0;
-  flex-shrink: 0;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-decoration: none;
+  line-height: 1.15;
 }
-.site-logo img {
-  width: 48px;
-  height: 48px;
-  display: block;
+.site-brand-name {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+}
+.site-brand-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--gold-soft);
 }
 .site-nav {
   display: flex;
@@ -216,45 +225,6 @@ img { max-width: 100%; height: auto; display: block; }
   letter-spacing: 0.01em;
 }
 
-/* About page lockup */
-.about-lockup {
-  margin: 2rem auto 3.5rem;
-  max-width: 320px;
-}
-.about-lockup img { width: 100%; height: auto; display: block; }
-
-/* About page layout — images stacked left, text right */
-.about-layout {
-  display: grid;
-  grid-template-columns: minmax(200px, 1fr) 2.2fr;
-  gap: clamp(2rem, 4vw, 3.5rem);
-  margin-top: 1rem;
-  max-width: 60rem;
-}
-.about-images {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.about-figure { margin: 0; }
-.about-figure img { width: 100%; height: auto; display: block; }
-.about-figure figcaption {
-  font-family: var(--sans);
-  font-size: 0.82rem;
-  color: var(--slate);
-  margin: 0.6rem 0 0;
-  line-height: 1.4;
-}
-.about-text p {
-  font-size: 1.0625rem;
-  margin: 0 0 1.1em;
-  line-height: 1.65;
-}
-.about-text a { color: var(--green); }
-@media (max-width: 720px) {
-  .about-layout { grid-template-columns: 1fr; }
-}
-
 /* =========================================================
    Page header
    ========================================================= */
@@ -275,53 +245,6 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--slate);
   margin: 0.75rem 0 0;
 }
-
-/* =========================================================
-   Research page — themes list
-   ========================================================= */
-.theme-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  max-width: 50rem;
-}
-.theme-list > li {
-  padding: 1.75rem 0;
-  border-top: 1px solid var(--rule);
-}
-.theme-list > li:last-child { border-bottom: 1px solid var(--rule); }
-.theme-list h3 {
-  font-family: var(--serif);
-  font-size: 1.3rem;
-  margin: 0 0 0.5rem;
-  color: var(--ink);
-}
-.theme-list p { margin: 0 0 0.5em; color: var(--ink); }
-
-.pub-list {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0 0;
-  max-width: 50rem;
-}
-.pub-list li {
-  padding: 1.1rem 0;
-  border-top: 1px solid var(--rule);
-}
-.pub-list li:last-child { border-bottom: 1px solid var(--rule); }
-.pub-title {
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  margin: 0;
-  color: var(--ink);
-  line-height: 1.4;
-}
-.pub-authors { font-family: var(--serif); font-size: 0.95rem; margin: 0.3rem 0 0; color: var(--ink); }
-.pub-venue { font-family: var(--sans); font-size: 0.85rem; color: var(--slate); margin: 0.3rem 0 0; }
-.pub-venue em { font-style: italic; }
-.pub-links { font-family: var(--sans); font-size: 0.85rem; margin: 0.5rem 0 0; }
-.pub-links a { color: var(--gold); text-decoration: none; margin-right: 1rem; font-weight: 600; }
-.pub-links a:hover { text-decoration: underline; }
 
 /* =========================================================
    Reflections list
@@ -412,71 +335,6 @@ img { max-width: 100%; height: auto; display: block; }
 .back-link:hover { color: var(--gold); }
 
 /* =========================================================
-   Media page
-   ========================================================= */
-.media-list {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0 0;
-  max-width: 50rem;
-}
-.media-list li {
-  padding: 1.5rem 0;
-  border-top: 1px solid var(--rule);
-  display: grid;
-  grid-template-columns: 7rem 1fr;
-  gap: 1.5rem;
-  align-items: baseline;
-}
-.media-list li:last-child { border-bottom: 1px solid var(--rule); }
-.media-date {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--slate);
-}
-.media-title {
-  font-family: var(--serif);
-  font-size: 1.1rem;
-  margin: 0 0 0.3rem;
-}
-.media-title a { color: var(--ink); text-decoration: none; }
-.media-title a:hover { color: var(--gold); }
-.media-outlet {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--slate);
-  margin: 0;
-}
-
-/* =========================================================
-   Contact
-   ========================================================= */
-.contact-list {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0 0;
-  max-width: 40rem;
-}
-.contact-list li {
-  padding: 1rem 0;
-  border-top: 1px solid var(--rule);
-  display: flex;
-  gap: 1.5rem;
-}
-.contact-list li:last-child { border-bottom: 1px solid var(--rule); }
-.contact-label {
-  font-family: var(--sans);
-  font-size: 0.85rem;
-  color: var(--slate);
-  min-width: 7rem;
-  padding-top: 0.1rem;
-}
-.contact-value {
-  font-family: var(--serif);
-  font-size: 1.05rem;
-}
-
-/* =========================================================
    Footer — green bar with centered text links
    ========================================================= */
 .site-footer {
@@ -548,31 +406,41 @@ img { max-width: 100%; height: auto; display: block; }
   * { transition: none !important; animation: none !important; }
 }
 
-/* About page */
-.page .prose:has(.about-layout) {
-  max-width: none;
-  width: 100%;
+/* =========================================================
+   Content pages and posts
+   ========================================================= */
+.prose h2 { font-size: 1.5rem; margin: 2.5em 0 0.75em; }
+.prose ol, .prose ul { padding-left: 1.5rem; }
+.prose li { margin: 0 0 0.9em; }
+.prose img { margin: 2rem 0 0.5rem; max-width: 100%; height: auto; }
+.prose .caption {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--slate);
+  margin: 0 0 2rem;
 }
+.prose blockquote {
+  margin: 2rem 0 0.5rem;
+  padding: 0 0 0 1.25rem;
+  border-left: 2px solid var(--gold);
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--slate);
+}
+.prose-wide { max-width: none; }
 
+/* =========================================================
+   About page
+   ========================================================= */
 .about-layout {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   gap: clamp(2rem, 4vw, 3.5rem);
   align-items: start;
-  width: 100%;
-  max-width: none;
 }
-.about-images {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
+.about-images { display: flex; flex-direction: column; gap: 1.5rem; }
 .about-figure { margin: 0; }
-.about-figure img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+.about-figure img { width: 100%; height: auto; display: block; margin: 0; }
 .about-figure figcaption {
   font-family: var(--sans);
   font-size: 0.8rem;
@@ -580,18 +448,21 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 0.5rem 0 0;
   line-height: 1.4;
 }
-.about-text {
-  width: 100%;
-  max-width: 46rem;
-}
-.about-text p {
-  font-size: 1.0625rem;
-  line-height: 1.7;
-  margin: 0 0 1.1em;
-}
+.about-text { max-width: 46rem; }
+.about-text p { font-size: 1.0625rem; line-height: 1.7; margin: 0 0 1.1em; }
 
 @media (max-width: 720px) {
   .about-layout { grid-template-columns: 1fr; }
   .about-images { flex-direction: row; flex-wrap: wrap; }
   .about-figure { flex: 1 1 200px; }
 }
+
+/* Media thumbnails */
+.media-thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0 0;
+}
+.media-thumbs a { display: block; }
+.media-thumbs img { width: 100%; height: auto; margin: 0; border: 1px solid var(--rule); }
