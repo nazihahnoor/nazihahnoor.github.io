@@ -8,11 +8,16 @@ A selection of my academic and professional work, including published papers, on
 
 ## Peer-Reviewed Articles in Scientific Journals
 
-1. Jackisch, J., **Noor, N**., Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2025. “[Differential effects of adolescent health behaviours on adult cardiometabolic health by parental and neighbourhood socioeconomic background](https://academic.oup.com/eurpub/advance-article/doi/10.1093/eurpub/ckaf212/8341448)”. European Journal of Public Health.
-2. Jackisch, J., **Noor, N**., Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2024. “[Does the effect of adolescent health behaviours on adult cardiometabolic health differ by socioeconomic background? Protocol for a population-based cohort study](https://bmjopen.bmj.com/content/14/5/e078428)”. BMJ Open.
-3. Probst-Hensch, N., Imboden, M., Jeong, A., Keidel, D., Vermes, T., Witzig, M., Cullati, S., Tancredi, S., **Noor, N**., Rodondi, PY., Harju, E., … Corona Immunitas Research Group. 2024. “[Long-term trajectories of densely reported depressive symptoms during an extended period of the COVID-19 pandemic in Switzerland: Social worries matter](https://www.sciencedirect.com/science/article/pii/S0010440X24000087)”. Comprehensive Psychiatry.
-4. Harju, E., Speierer, A., Jungo, KT., Levati, S., Baggio, S., Tancredi, S., **Noor, N**., Rodondi, P. Y., Cullati, S., Imboden,… Chocano-Bedoya, P. 2023. “[Changes in Healthcare Utilization During the COVID-19 Pandemic and Potential Causes—A Cohort Study From Switzerland](https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2023.1606010/full)”. International Journal of Public Health.
-5. Sabatini, S., Kaufmann, M., Fadda, M., Tancredi, S., **Noor, N.**, Van der Linden, BW. A., Cullati, S., Frank, I., Michel, G., Harju, E., Luedi, C., … von Wyl, V. 2023. “[Factors Associated With COVID-19 Non-Vaccination in Switzerland: A Nationwide Study](https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2023.1605852/full)”. International Journal of Public Health.
+1. van der Linden, B., Viehl, C., **Noor, N**., Adair, T., Vaccarella, S., Carmeli, C. 2026. “[Trends in obesity-related cardiovascular and cancer mortality in Switzerland 1995-2019: an analysis of multiple causes of death](https://pmc.ncbi.nlm.nih.gov/articles/PMC13149030/)”. American Journal of Epidemiology.
+2. Jackisch, J., **Noor, N**., Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2025. “[Differential effects of adolescent health behaviours on adult cardiometabolic health by parental and neighbourhood socioeconomic background](https://academic.oup.com/eurpub/advance-article/doi/10.1093/eurpub/ckaf212/8341448)”. European Journal of Public Health.
+3. Jackisch, J., **Noor, N**., Raitakari, OT., Lehtimäki, T., Kähonen, M., Cullati, S., Delpierre, C., Kivimäki, M., Carmeli, C. 2024. “[Does the effect of adolescent health behaviours on adult cardiometabolic health differ by socioeconomic background? Protocol for a population-based cohort study](https://bmjopen.bmj.com/content/14/5/e078428)”. BMJ Open.
+4. Probst-Hensch, N., Imboden, M., Jeong, A., Keidel, D., Vermes, T., Witzig, M., Cullati, S., Tancredi, S., **Noor, N**., Rodondi, PY., Harju, E., … Corona Immunitas Research Group. 2024. “[Long-term trajectories of densely reported depressive symptoms during an extended period of the COVID-19 pandemic in Switzerland: Social worries matter](https://www.sciencedirect.com/science/article/pii/S0010440X24000087)”. Comprehensive Psychiatry.
+5. Harju, E., Speierer, A., Jungo, KT., Levati, S., Baggio, S., Tancredi, S., **Noor, N**., Rodondi, P. Y., Cullati, S., Imboden,… Chocano-Bedoya, P. 2023. “[Changes in Healthcare Utilization During the COVID-19 Pandemic and Potential Causes—A Cohort Study From Switzerland](https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2023.1606010/full)”. International Journal of Public Health.
+6. Sabatini, S., Kaufmann, M., Fadda, M., Tancredi, S., **Noor, N.**, Van der Linden, BW. A., Cullati, S., Frank, I., Michel, G., Harju, E., Luedi, C., … von Wyl, V. 2023. “[Factors Associated With COVID-19 Non-Vaccination in Switzerland: A Nationwide Study](https://www.ssph-journal.org/journals/international-journal-of-public-health/articles/10.3389/ijph.2023.1605852/full)”. International Journal of Public Health.
+
+## Pre-Prints
+1. **Noor, N.**, Jackisch, J., Baggio, S., Cullati, S., Carmeli, C. 2026. “[Effects of Adolescent Parenting Styles on Adult Cardiovascular Conditions: A Population-Based Cohort Study](https://www.medrxiv.org/content/10.64898/2026.08.22.26361103v1)”. medRxiv.
+2. **Noor, N.**, Jackisch, J., Chiolero, A., Mullan Harris, K., Carmeli, C.  2026. “[Unequal effects of health behaviors in adolescence on adult cardiovascular disease and hypertension by family financial situation in the US: A cohort study](https://www.medrxiv.org/content/10.64898/2026.03.11.26348128v1)”. medRxiv.
 
 ## Reports
 
@@ -36,6 +41,4 @@ A selection of my academic and professional work, including published papers, on
 3. [Covid-19 Control: Break Down Foreign Workers’ Barriers to Care](https://www.krinstitute.org/Views-@-Covid-19_Control-;_Break_Down_Foreign_Workers%E2%80%99_Barriers_to_Care.aspx). 2020. Khazanah Research Institute. Kuala Lumpur, Malaysia.
 4. [Maternity Leave in Malaysia: The March to 90 Days](https://www.krinstitute.org/Views-@-Maternity_Leave_in_Malaysia-;_The_March_to_90_days.aspx). 2019. Khazanah Research Institute. Kuala Lumpur, Malaysia.
 
-[Google Scholar page](https://scholar.google.com/citations?user=KUv8NX4AAAAJ&hl=en)
-
-[ORCID: 0000-0001-6543-1352](https://orcid.org/0000-0001-6543-1352)
+Last updated: 2 October 2026
